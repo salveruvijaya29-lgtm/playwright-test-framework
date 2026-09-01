@@ -10,6 +10,3 @@ test('successful login', async ({ page }) => {
   await expect(page).toHaveURL(/secure/);
   await expect(loginPage.flashMessage).toContainText('You logged into a secure area!');
 });
-
-
-
