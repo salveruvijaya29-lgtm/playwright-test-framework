@@ -12,3 +12,4 @@ test('submit form', async ({ page }) => {
   
   await expect(page.locator('.alert.alert-info')).toBeVisible();
 });
+
